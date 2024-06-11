@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D1BE31 !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-section, .register-section {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.login-section {
+    background-color: #2B2603;
+    color: white;
+    text-align: center;
+    width: 20%;
+    height: 45%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.login-section .logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login-section .Botao-de-login {
+    background-color: #D1BE31;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-section .esqueci-a-senha {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.registro-section {
+    background-color: #FFED76;
+    color: black;
+    padding: 30px;
+    width: 50%;
+    height: 45%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.registro-section h2 {
+    margin: 0 0 10px;
+}
+
+.registro-section p {
+    margin: 0 0 20px;
+}
+
+.registro-section form input {
+    background-color: #E2CE1A;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.registro-section form button {
+    background-color: #2B2603;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
